@@ -13,8 +13,16 @@ public class Disciplina {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public Professor getProfessorResponsavel() {
         return professorResponsavel;
+    }
+
+    public void setProfessorResponsavel(Professor professorResponsavel) {
+        this.professorResponsavel = professorResponsavel;
     }
 
     @Override

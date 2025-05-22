@@ -18,6 +18,10 @@ public class Turma {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public List<Aluno> getAlunos() {
         return alunos;
     }
