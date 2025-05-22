@@ -8,4 +8,17 @@ public class Aluno {
         this.nome = nome;
         this.matricula = matricula;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluno: " + nome + ", Matrícula: " + matricula;
+    }
 }
