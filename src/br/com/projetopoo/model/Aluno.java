@@ -1,20 +1,19 @@
 package br.com.projetopoo.model;
 
-public class Aluno {
-    private String nome;
+public class Aluno extends Pessoa {
     private String matricula;
 
     public Aluno(String nome, String matricula) {
-        this.nome = nome;
+        super(nome);
         this.matricula = matricula;
-    }
-
-    public String getNome() {
-        return nome;
     }
 
     public String getMatricula() {
         return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 
     @Override

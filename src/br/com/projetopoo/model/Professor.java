@@ -1,20 +1,19 @@
 package br.com.projetopoo.model;
 
-public class Professor {
-    private String nome;
+public class Professor extends Pessoa {
     private String disciplinaPrincipal;
 
     public Professor(String nome, String disciplinaPrincipal) {
-        this.nome = nome;
+        super(nome);
         this.disciplinaPrincipal = disciplinaPrincipal;
-    }
-
-    public String getNome() {
-        return nome;
     }
 
     public String getDisciplinaPrincipal() {
         return disciplinaPrincipal;
+    }
+
+    public void setDisciplinaPrincipal(String disciplinaPrincipal) {
+        this.disciplinaPrincipal = disciplinaPrincipal;
     }
 
     @Override

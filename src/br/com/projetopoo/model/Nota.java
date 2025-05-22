@@ -23,6 +23,10 @@ public class Nota {
         return valor;
     }
 
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
     @Override
     public String toString() {
         return "Nota: " + valor + " - Aluno: " + aluno.getNome() + " - Disciplina: " + disciplina.getNome();
